@@ -1,0 +1,1 @@
+/mnt/windows_c/Users/manov/Desktop/code/rust/Rust_02_Advanced/vector_of_tupples/target/debug/vector_of_tupples: /mnt/windows_c/Users/manov/Desktop/code/rust/Rust_02_Advanced/vector_of_tupples/src/main.rs
