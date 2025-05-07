@@ -22,7 +22,24 @@ fn main() {
         None => println!("We got nothing :(")
 
     } 
+
+
+    let v1 = vec![1, 2, 4, 5, 6, 7, 8, 9, 10];
+    let v1_iter = v1.iter();
+    let doubleValues = v1_iter.map(|x| 2*x);
+    let even_iter = v1.iter();
+    let evenValues = even_iter.filter(|x| *x % 2 == 0);
+    print!("Double Values: ");
+    for val in doubleValues{
+        print!("{} ", val);
+    }
+
+    print!("\nEven Values: ");
+    for val in evenValues{
+        print!("{} ", val);
+    }
     
+  
 
 
 
